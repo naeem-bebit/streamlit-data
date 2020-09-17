@@ -12,26 +12,12 @@ from sklearn.ensemble import RandomForestClassifier
 
 from sklearn.metrics import accuracy_score
 
-st.title('Interview with Rakuten Logistics IncubAI')
+st.title('Streamlit Example')
 
 st.write("""
-### Naeem, beBit Machine Learning Engineer
+# Explore different classifier and datasets
+Which one is the best?
 """)
-st.subheader(""" What I have done/currently doing""")
-
-st.write(""" • Tuned algorithms based on statistical analysis and predictive data modelling to strengthen longevity and personalize interactions for clients \n
-• Developed two features using statistical modelling and machine learning techniques to inform client’s strategic decisions \n
-• Identified abnormalities encountered by client’s user while performing an action \n
-• Predict client’s user which high possibilities of making an action\n
-• Built four KPI dashboards to measure features engagement with the user \n
-• Scrum Master for the team of 10 engineers """)
-
-st.subheader("""Python, SQL, AWS, Continuous Integrations (Github Actions), Docker & Git, Kubernetes""")
-
-st.write("""#### PythonAnywhere: https://naeemhussien.pythonanywhere.com
-#### Blog: https://naeem-bebit.github.io/
-""")
-
 st.subheader(""" DEMO""")
 dataset_name = st.sidebar.selectbox(
     'Select Dataset',
