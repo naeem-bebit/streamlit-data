@@ -12,15 +12,13 @@ from sklearn.ensemble import RandomForestClassifier
 
 from sklearn.metrics import accuracy_score
 
-st.title("Streamlit Example")
+st.title("Streamlit Demo")
 
-st.write(
+st.subheader(
     """
 # Explore different classifier and datasets
-Which one is the best?
 """
 )
-st.subheader(""" DEMO""")
 dataset_name = st.sidebar.selectbox("Select Dataset", ("Iris", "Breast Cancer", "Wine"))
 
 st.write(f"## {dataset_name} Dataset")
