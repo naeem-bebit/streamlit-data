@@ -11,3 +11,10 @@
    ```console
    $ pip install -r requirements.txt --default-timeout=200
    ```
+
+1. Docker build and docker run
+
+   ```console
+   docker build -t streamlit_app .
+   docker run streamlit_app
+   ```
