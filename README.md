@@ -18,3 +18,7 @@
    docker build -t streamlit_app .
    docker run streamlit_app
    ```
+
+## Reference
+
+1. https://www.docker.com/blog/tag/python-env-series/
